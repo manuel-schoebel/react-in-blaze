@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
   api.use('templating');
-  api.use('hipertracker:reactjs');
+  api.use('hipertracker:reactjs@0.0.8');
   api.addFiles(['react-component.html', 'react-component.js'], 'client');
 });
 
